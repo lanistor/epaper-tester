@@ -26,3 +26,14 @@ make -j 16
 ```
 
 Then use vscode - `debug` - `Simulator Run`.
+
+## Folder description
+
+**The connector of epdiy-lvgl**
+
+- `components/lvgl_epaper_drivers/lvgl_tft/epdiy_epaper.cpp`
+  - the core function is `epdiy_repaint`
+
+**The test view code**
+
+- `main/modules/tester/pack/index.cpp`
