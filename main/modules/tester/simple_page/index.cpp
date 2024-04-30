@@ -12,6 +12,30 @@ const char* text_1 =
   "fine-tuning: human AI trainers provided conversations in which they played "
   "both sides—the user and an AI assistant. We gave the trainers access to "
   "fine-tuning: human AI trainers provided conversations in which they played "
+  "both sides—the user and an AI assistant. We gave the trainers access to "
+  "We trained this model using Reinforcement Learning from Human Feedback "
+  "(RLHF), using the same methods as InstructGPT, but with slight differences "
+  "in the data collection setup. We trained an initial model using supervised "
+  "fine-tuning: human AI trainers provided conversations in which they played "
+  "both sides—the user and an AI assistant. We gave the trainers access to "
+  "We trained this model using Reinforcement Learning from Human Feedback "
+  "(RLHF), using the same methods as InstructGPT, but with slight differences "
+  "in the data collection setup. We trained an initial model using supervised "
+  "fine-tuning: human AI trainers provided conversations in which they played "
+  "both sides—the user and an AI assistant. We gave the trainers access to "
+  "fine-tuning: human AI trainers provided conversations in which they played "
+  "both sides—the user and an AI assistant. We gave the trainers access to "
+  "We trained this model using Reinforcement Learning from Human Feedback "
+  "(RLHF), using the same methods as InstructGPT, but with slight differences "
+  "in the data collection setup. We trained an initial model using supervised "
+  "fine-tuning: human AI trainers provided conversations in which they played "
+  "both sides—the user and an AI assistant. We gave the trainers access to "
+  "We trained this model using Reinforcement Learning from Human Feedback "
+  "(RLHF), using the same methods as InstructGPT, but with slight differences "
+  "in the data collection setup. We trained an initial model using supervised "
+  "fine-tuning: human AI trainers provided conversations in which they played "
+  "both sides—the user and an AI assistant. We gave the trainers access to "
+  "fine-tuning: human AI trainers provided conversations in which they played "
   "both sides—the user and an AI assistant. We gave the trainers access to ";
 
 lv_obj_t* tester_simple_page::create_widget() {
@@ -35,15 +59,6 @@ void tester_simple_page::create_children() {
   lv_label_set_text(col_1_row_1_label, text_1);
   lv_obj_set_width(col_1_row_1_label, lv_pct(100));
   lv_label_set_long_mode(col_1_row_1_label, LV_LABEL_LONG_WRAP);
-
-  // column 1 row 2
-  auto col_1_row_2 = create_fl_flex_obj(col_1, LV_FLEX_FLOW_COLUMN);
-  lv_obj_set_width(col_1_row_2, lv_pct(100));
-  lv_obj_set_flex_grow(col_1_row_2, 1);
-  auto col_1_row_2_label = create_fl_label(col_1_row_2);
-  lv_label_set_text(col_1_row_2_label, text_1);
-  lv_obj_set_width(col_1_row_2_label, lv_pct(100));
-  lv_label_set_long_mode(col_1_row_2_label, LV_LABEL_LONG_WRAP);
 
   // column 2
   // auto col_2 = create_fl_flex_obj(view, LV_FLEX_FLOW_COLUMN);
