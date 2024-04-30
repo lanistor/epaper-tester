@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "istream": "cpp",
+    "streambuf": "cpp",
+    "string": "cpp",
+    "typeindex": "cpp",
+    "typeinfo": "cpp",
+    "*.ipp": "cpp"
+  }
+}

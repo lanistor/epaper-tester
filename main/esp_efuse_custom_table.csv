@@ -1,0 +1,6 @@
+# field_name,       |    efuse_block, | bit_start, | bit_count, |comment #
+
+# Serial Number #
+#################
+SERIAL_NUMBER,            EFUSE_BLK3,    160,   24,    Serial Number, [0-2]
+             ,            EFUSE_BLK3,    192,   56,    Serial Number, [3-9]
