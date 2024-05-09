@@ -55,10 +55,11 @@ void tester_simple_page::create_children() {
   auto col_1_row_1 = create_fl_flex_obj(col_1, LV_FLEX_FLOW_COLUMN);
   lv_obj_set_width(col_1_row_1, lv_pct(100));
   lv_obj_set_flex_grow(col_1_row_1, 1);
-  auto col_1_row_1_label = create_fl_label(col_1_row_1);
-  lv_label_set_text(col_1_row_1_label, text_1);
-  lv_obj_set_width(col_1_row_1_label, lv_pct(100));
-  lv_label_set_long_mode(col_1_row_1_label, LV_LABEL_LONG_WRAP);
+  lv_obj_set_style_bg_color(col_1_row_1, color_make(0x00), LV_PART_MAIN);
+  // auto col_1_row_1_label = create_fl_label(col_1_row_1);
+  // lv_label_set_text(col_1_row_1_label, text_1);
+  // lv_obj_set_width(col_1_row_1_label, lv_pct(100));
+  // lv_label_set_long_mode(col_1_row_1_label, LV_LABEL_LONG_WRAP);
 
   // column 2
   // auto col_2 = create_fl_flex_obj(view, LV_FLEX_FLOW_COLUMN);
